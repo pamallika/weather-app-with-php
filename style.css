@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+/*  main background-color:#222222;
+    body background-color: #1d1c1c;
+*/
+body {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: #1d1c1c;
+  color:white;
+  margin: 0;
+  font-family:Montserrat sans-serif;
+  font-weight: 400;
+  font-size: 18pt;
+}
+
+ .main{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color:#222222;
+}
+
+.text{
+  position: relative;
+  background-image:url(img/darknessday.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 3vh;
+  padding: 50px;
+}
+.form{
+  position: relative;
+  margin: 3vh;      
+}
+p{
+  margin-left: 18px;
+  font-weight: 200;
+  font-size: 16;
+}
+
+.content p{
+
+  margin:25px 18px;
+}
+
+form input,button{
+  font-family: Montsserat;
+  font-size: 16pt;
+  font-weight: 300;
+  margin: 3vh;
+}
+form {
+  padding: 15px 0 0;
+  margin-top: 10px;
+}
+
+input {
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  color:white;
+  padding: 7px 0;
+  background: transparent;
+}
+
+button{
+  background: transparent;
+  padding: 5px;
+  color:white;
+  border: 2px solid #9b9b9b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+button:active{
+  background-color:#9b9b9b;
+  transition: background-color .2s;
+} 
+
+
